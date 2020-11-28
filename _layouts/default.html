@@ -17,11 +17,9 @@
           <h1>{{ site.title | default: site.github.repository_name }}</h1>
         </a>
         <h2>{{ site.description | default: site.github.project_tagline }}</h2>
+        
+        {% include menu.html %}
 
-        <div id="menu">
-            <a href="{{ site.url }}/index.html">Home</a>
-            <a href="{{ site.url }}/hello.html">Hello</a>
-        </div>
       </div>
     </header>
 
