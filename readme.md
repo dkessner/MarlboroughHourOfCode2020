@@ -34,6 +34,10 @@ You can include your source code with this Jekyll tag:
     {% include_relative hello.js %}
     ```
 
+To embed a YouTube video, click Share/Embed on the video page to get the HTML
+code (`<iframe ...>`) that you can copy into your page.
+
+
 ## Project Notes
 
 ### List supported languages for syntax highlighting
