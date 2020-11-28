@@ -5,10 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-
+    {% seo %}
     <script src="p5/p5.js"></script>
-
-{% seo %}
   </head>
 
   <body>
@@ -29,21 +27,11 @@
     <div class="container">
       <section id="main_content">
         {{ content }}
-
-        <div id="code">
-        </div>
-
-        <div id="preview">
-        </div>
-
-        <p>
-        Copy the code into the editor below to run it yourself!
-        <p>
-
+        <div id="preview"></div>
+        <p>Copy the code into the editor below to run it yourself! <p>
         <iframe id="editor"
             title="p5.js web editor embed"
-            width="100%"
-            height="600"
+            width="100%" height="600"
             src="https://editor.p5js.org/">
         </iframe>
       </section>
