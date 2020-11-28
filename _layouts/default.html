@@ -18,6 +18,10 @@
         </a>
         <h2>{{ site.description | default: site.github.project_tagline }}</h2>
 
+        <div id="menu">
+            <a href="{{ site.url }}/index.html">Home</a>
+            <a href="{{ site.url }}/hello.html">Hello</a>
+        </div>
       </div>
     </header>
 
@@ -36,6 +40,10 @@
         ga('create', '{{ site.google_analytics }}', 'auto');
         ga('send', 'pageview');
       </script>
+
     {% endif %}
+
+    <script src="p5/p5.js"></script>
+
   </body>
 </html>
