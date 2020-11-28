@@ -16,5 +16,6 @@ Here's what your code will look like!
 
 ```javascript
 {% include_relative venn.js %}
+```
 
 <script src="venn.js"></script>
