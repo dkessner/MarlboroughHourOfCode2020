@@ -168,27 +168,13 @@ pre {
   color: #b5e853;
   border-radius: 2px;
   word-wrap: normal;
-/*  overflow: auto;*/
-/*  overflow-y: hidden;*/
-  overflow: hidden;
-}
-
-div.highlighter-rouge {
-    display: inline-block;
-    vertical-align: top;
-    width: auto;
-    height: 400px;
-    overflow: auto;
-    padding: 0;
-}
-
-div.highlight {
-    height: auto;
-    margin: -15px 0;
+  overflow: auto;
+  overflow-y: hidden;
 }
 
 #preview {
-    display: inline-block;
+    display: flex;
+    justify-content: center;
 }
 
 code.highlighter-rouge {
