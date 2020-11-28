@@ -2,7 +2,39 @@
 
 [Live website](https://dkessner.github.io/MarlboroughHourOfCode2020)
 
-## Notes
+
+## Tutorials
+
+### Adding a tutorial
+
+To add a tutorial page, you need to:
+
+* add _tutorialName.md_ (the page content in Markdown)
+* add _tutorialName.js_ (p5.js code)
+* add an entry to the menu
+
+### Tutorial content
+
+The p5.js canvas will be place in this element:
+
+```html
+<div id="preview"></div>
+```
+
+You can include your source code with this Jekyll tag:
+
+    ```javascript
+    {% include_relative hello.js %}
+    ```
+
+Run your p5.js program by including this at the bottom of your Markdown source.
+
+```html
+<script src="hello.js"></script>
+```
+
+
+## Project Notes
 
 ### List supported languages for syntax highlighting
 
