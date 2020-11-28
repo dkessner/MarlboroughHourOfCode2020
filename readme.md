@@ -15,24 +15,20 @@ To add a tutorial page, you need to:
 
 ### Tutorial content
 
-The p5.js canvas will be place in this element:
+Run your p5.js program by including this at the bottom of your Markdown source.
+```html
+<script src="hello.js"></script>
+```
 
+The actual p5.js canvas will be placed wherever you put this element:
 ```html
 <div id="preview"></div>
 ```
 
 You can include your source code with this Jekyll tag:
-
     ```javascript
     {% include_relative hello.js %}
     ```
-
-Run your p5.js program by including this at the bottom of your Markdown source.
-
-```html
-<script src="hello.js"></script>
-```
-
 
 ## Project Notes
 
