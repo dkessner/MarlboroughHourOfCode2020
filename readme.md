@@ -9,11 +9,14 @@
 
 To add a tutorial page, you need to:
 
-* add _tutorialName.md_ (the page content in Markdown)
-* add _tutorialName.js_ (p5.js code)
-* add an entry to the menu
+* Add your source code (_tutorialName.js_)
+* Add your tutorial content (_tutorialName.md_)
+* Add an entry to the menu
 
 ### Tutorial content
+
+Page content is written in Markdown (.md), which is translated to HTML by
+Jekyll.  You can also use HTML tags within the Markdown content.
 
 Run your p5.js program by including this at the bottom of your Markdown source.
 ```html
