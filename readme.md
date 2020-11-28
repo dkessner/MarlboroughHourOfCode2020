@@ -26,6 +26,7 @@ The actual p5.js canvas will be placed wherever you put this element:
 ```
 
 You can include your source code with this Jekyll tag:
+
     ```javascript
     {% include_relative hello.js %}
     ```
