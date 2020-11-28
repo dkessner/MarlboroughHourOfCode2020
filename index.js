@@ -13,5 +13,6 @@ function initialize()
         codeElement.appendChild(defaultCanvasElement);
 }
 
-setTimeout(initialize, 1000); // hack: let the page load
+window.onload = initialize;
+
 
