@@ -18,6 +18,15 @@ To add a tutorial page, you need to:
 Page content is written in Markdown (.md), which is translated to HTML by
 Jekyll.  You can also use HTML tags within the Markdown content.
 
+Include the metadata block at the top of your page (this tells Jekyll to
+use `_layouts/tutorial.html` as a template:
+
+    ```
+    ---
+    layout: tutorial
+    ---
+    ```
+
 Run your p5.js program by including this at the bottom of your Markdown source.
 ```html
 <script src="hello.js"></script>
