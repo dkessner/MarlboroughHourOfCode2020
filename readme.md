@@ -19,7 +19,7 @@ Page content is written in Markdown (.md), which is translated to HTML by
 Jekyll.  You can also use HTML tags within the Markdown content.
 
 Include the metadata block at the top of your page (this tells Jekyll to
-use `_layouts/tutorial.html` as a template:
+use `_layouts/tutorial.html` as a template):
 
 ```yaml
 ---
