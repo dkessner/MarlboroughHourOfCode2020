@@ -5,7 +5,7 @@
 
 function setup() {
   var canvas = createCanvas(400, 400);
-  canvas.parent("sketch");
+  canvas.parent("preview");
 }
 
 function draw() {

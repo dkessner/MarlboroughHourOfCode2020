@@ -1,24 +1,23 @@
+---
+layout: tutorial
+---
+
 ## Hello
 
-<p>
 Hello!
-<p>
 
-<div id="code">
-</div>
+The quick brown fox jumps over the lazy dog.
 
-<div id="sketch">
-</div>
+```javascript
+function setup() {
+  createCanvas(400, 400);
+}
 
-<p>
-Copy the code into the editor below to run it yourself!
-<p>
-
-<iframe id="editor"
-    title="p5.js web editor embed"
-    width="100%"
-    height="600"
-    src="https://editor.p5js.org/">
-</iframe>
+function draw() {
+    background(0);
+    ellipse(200, 200, 100, 50);
+}
+```
 
 <script src="hello.js"></script>
+
