@@ -9,9 +9,9 @@
 
 To add a tutorial page, you need to:
 
-* Add your source code (_tutorialName.js_)
-* Add your tutorial content (_tutorialName.md_)
-* Add an entry to the menu
+* Add your source code (`tutorial_name.js`)
+* Add your tutorial content (`tutorial_name.md`)
+* Add an entry to the menu (in `_includes/menu.html`)
 
 ### Tutorial content
 
