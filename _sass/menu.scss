@@ -10,6 +10,13 @@ $blue1: #1261a0;
 $blue2: #3895d3;
 $blue3: #58cced;
 
+$green0: #132519;
+$green1: #355935;
+$green2: #5d8c55;
+$green3: #73a767;
+$green4: #93be89;
+
+
 .links {
     background-color: black;
 }
@@ -32,18 +39,18 @@ $blue3: #58cced;
 }
 
 .links.group0  a {
-    background-color: $blue0;
+    background-color: $green0;
 }
 
 .links.group1  a {
-    background-color: $blue1;
+    background-color: $green1;
 }
 
 .links.group2  a {
-    background-color: $blue2;
+    background-color: $green2;
 }
 
 .links.group3  a {
-    background-color: $blue3;
+    background-color: $green3;
 }
 
