@@ -1,22 +1,42 @@
 <div id="menu">
     <div class="links group0">
-    <a href="{{ site.url }}/index.html">Home</a>
-    <a href="{{ site.url }}/codingConcepts.html">Coding Concepts</a>
+
+        <a href="{{ site.url }}/index.html" 
+           {% if page.name == "index.md" %}class="selected"{% endif %}>
+           Home</a>
+
+        <a href="{{ site.url }}/codingConcepts.html" 
+           {% if page.name == "codingConcepts.md" %}class="selected"{% endif %}>
+           Coding Concepts</a>
+
     </div>
 
     <div class="links group1">
-    <a href="{{ site.url }}/hello.html">Hello</a>
+
+        <a href="{{ site.url }}/hello.html" 
+           {% if page.name == "hello.md" %}class="selected"{% endif %}>
+           Hello</a>
+
     </div>
 
     <div class="links group2">
-    <a href="{{ site.url }}/colorPlane.html">Color + Coordinate Plane</a>
-    <a href="{{ site.url }}/drawShapesPart1.html">Shapes 1</a>
-    <a href="{{ site.url }}/drawShapesPart2.html">Shapes 2</a>
+
+        <a href="{{ site.url }}/colorPlane.html" 
+           {% if page.name == "colorPlane.md" %}class="selected"{% endif %}>
+           Color + Coordinate Plane</a>
+
+        <a href="{{ site.url }}/drawShapesPart1.html" 
+           {% if page.name == "drawShapesPart1.md" %}class="selected"{% endif %}>
+           Shapes 1</a>
+
+        <a href="{{ site.url }}/drawShapesPart2.html" 
+           {% if page.name == "drawShapesPart2.md" %}class="selected"{% endif %}>
+           Shapes 2</a>
+
     </div>
 
     <div class="links group3">
-    <a href="{{ site.url }}/hello.html">Hello</a>
-    <a href="{{ site.url }}/hello.html">Hello</a>
+        <a href="{{ site.url }}/hello.html">Hello</a>
+        <a href="{{ site.url }}/hello.html">Hello</a>
     </div>
-
 </div>
