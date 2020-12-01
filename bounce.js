@@ -34,14 +34,14 @@ class Ball
         this.vx = random(-2, 5);
         this.vy = random(-2, 5);
         this.c = color(0, random(200, 255), random(150, 255));
-        this.a = random(100, 200);
+        //this.a = random(100, 200);
         this.r = random(10, 50);
     }
 
     display()
     {
         noStroke();
-        fill(this.c, this.a);
+        fill(this.c, 100);
         ellipse(this.x, this.y, this.r*2, this.r*2);
 
         this.x += this.vx;
