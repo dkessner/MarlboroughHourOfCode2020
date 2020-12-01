@@ -11,7 +11,7 @@ function setup() {
     background(0);
     fill(255);
     textAlign(CENTER);
-    text("Click me!", width/2, height/2);
+    text("Click me! (more than once)", width/2, height/2);
 }
 
 function draw() {
@@ -31,15 +31,17 @@ class Ball
     {
         this.x = x;
         this.y = y;
-        this.vx = random(-3, 3);
-        this.vy = random(-3, 3);
+        this.vx = random(-2, 5);
+        this.vy = random(-2, 5);
         this.c = color(0, random(200, 255), random(150, 255));
+        this.a = random(100, 200);
         this.r = random(10, 50);
     }
 
     display()
     {
-        fill(this.c);
+        noStroke();
+        fill(this.c, this.a);
         ellipse(this.x, this.y, this.r*2, this.r*2);
 
         this.x += this.vx;
@@ -49,4 +51,3 @@ class Ball
         if (this.y<this.r || this.y>width-this.r) this.vy *= -1;
     }
 }
-
