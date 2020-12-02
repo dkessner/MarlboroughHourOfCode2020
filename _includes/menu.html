@@ -40,7 +40,9 @@
     </div>
 
     <div class="links group3">
-        <a href="{{ site.url }}/hello.html">Hello</a>
+        <a href="{{ site.url }}/clickBall.html"
+            {% if page.name == "clickBall.md" %}class="selected"{% endif %}>
+            Click Ball</a>
         <a href="{{ site.url }}/hello.html">Hello</a>
     </div>
 </div>
