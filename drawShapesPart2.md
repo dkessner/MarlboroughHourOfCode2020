@@ -2,7 +2,7 @@
 layout: tutorial
 ---
 
-## Drawing With Shapes Part 2
+## Drawing With Shapes Part 2 (Katie '23)
 
 Part 2
 

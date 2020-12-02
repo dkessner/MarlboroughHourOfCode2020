@@ -1,13 +1,9 @@
 <div id="menu">
-    <div class="links group0">
+    <div class="links group1">
 
         <a href="{{ site.url }}/index.html" 
            {% if page.name == "index.md" %}class="selected"{% endif %}>
            Home</a>
-
-    </div>
-
-    <div class="links group1">
 
         <a href="{{ site.url }}/codingConcepts.html" 
            {% if page.name == "codingConcepts.md" %}class="selected"{% endif %}>
@@ -32,6 +28,14 @@
     </div>
 
     <div class="links group3">
-        <a href="{{ site.url }}/clickBall.html">Click Ball game </a>
+
+        <a href="{{ site.url }}/christmasTree.html" 
+           {% if page.name == "christmasTree.md" %}class="selected"{% endif %}>
+           Christmas Tree</a>
+
+        <a href="{{ site.url }}/clickBall.html" 
+           {% if page.name == "clickBall.md" %}class="selected"{% endif %}>
+           Click Ball</a>
+
     </div>
 </div>
