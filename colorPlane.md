@@ -2,7 +2,7 @@
 layout: tutorial
 ---
 
-## Color and the Coordinate Plane
+## Color and the Coordinate Plane (Katie '23)
 
 Your introduction to code!
 
