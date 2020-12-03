@@ -15,9 +15,9 @@ This is what the completed code will look like:
 <div id="preview"></div>
 
 ```javascript
-{% include_relative recurion.js %}
+{% include_relative recursion.js %}
 ```
 
 You can put code here and try it out!
 
-<script src="intro.js"></script>
+<script src="recursion.js"></script>
