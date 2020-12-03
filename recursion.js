@@ -1,6 +1,6 @@
 //recursion is when a variable calls itself
 
-void setup() {
+function setup() {
   createCanvas(600, 600);
   background(255);
   translate(width/2, height/2);
@@ -8,10 +8,10 @@ void setup() {
   drawRect(0, 0, 150);
 }
 
-void draw() {
+function draw() {
 }
 
-void drawCircle(var x, var y, var w) {
+function drawCircle(x, y, w) {
   if (w > 4) {
     drawCircle(x + w/2 + w/4, y, w/2);
     drawCircle(x - w/2 - w/4, y, w/2);
@@ -23,7 +23,7 @@ void drawCircle(var x, var y, var w) {
   ellipse(x, y, w, w);
 }
 
-void drawRect(var x, var y, var w) {
+function drawRect(x, y, w) {
   if (w > 4) {
     drawRect(x + w/2 + w/4, y, w/2);
     drawRect(x - w/2 - w/4, y, w/2);
