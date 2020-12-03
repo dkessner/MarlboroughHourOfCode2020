@@ -10,12 +10,14 @@ Marlborough offers an extensive computer science curriculum:
 - AP Computer Science A 
 - Honors Computer Science Projects
 
+You can also code in Robotics, Engineering, and selected Math and Science
+classes.
+
 Be sure to check out 
 <a href="http://stem.marlborough.org/blog/csprojects2020/" target="_blank">
 last year's student projects</a>
 and more on the 
 <a href="http://stem.marlborough.org" target="_blank">
 STEM website</a>.
-
 
 
