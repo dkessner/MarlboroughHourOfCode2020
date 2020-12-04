@@ -10,7 +10,8 @@ Apologies for the weird audio in this video! Here's the tutorial!
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wpePkhRnYjA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-This is what the completed code will look like:
+This is what the completed code will look like.
+Tip: it'll be different every time you press play/reload the page!
 
 <div id="preview"></div>
 
