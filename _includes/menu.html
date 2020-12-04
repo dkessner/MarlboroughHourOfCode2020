@@ -36,6 +36,14 @@
     </div>
 
     <div class="links group3">
+        <a href="{{ site.url }}/randomLoops.html"
+          {% if page.name == "randomLoops.md" %}class="selected"{% endif %}>
+          Random + Loops</a>
+
+        <a href="{{ site.url }}/lerpColor.html"
+          {% if page.name == "lerpColor.md" %}class="selected"{% endif %}>
+          Gradient</a>
+
         <a href="{{ site.url }}/clickBall.html"
             {% if page.name == "clickBall.md" %}class="selected"{% endif %}>
             Click Ball</a>
@@ -43,9 +51,5 @@
         <a href="{{ site.url }}/recursion.html"
             {% if page.name == "recursion.md" %}class="selected"{% endif %}>
             Recursion</a>
-
-          <a href="{{ site.url }}/lerpColor.html"
-            {% if page.name == "lerpColor.md" %}class="selected"{% endif %}>
-            Gradient</a>
     </div>
 </div>
