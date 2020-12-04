@@ -20,9 +20,10 @@ function draw() {
     }
   if(gameState == 1)
     {
-    background(220);
+    background(255);
     x = x + vx;
     y = y + vy;
+    noStroke();
     fill(c);
     ellipse(x,y,50,50);
     textSize(36);
@@ -52,7 +53,7 @@ function draw() {
 }
 
 function mousePressed()  {
-  if(gameState == 0) 
+  if(gameState == 0)
     {
       gameState = 1;
     }
@@ -72,4 +73,3 @@ function mousePressed()  {
       y = height/2;
     }
 }
-
