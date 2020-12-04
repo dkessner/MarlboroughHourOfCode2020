@@ -11,7 +11,7 @@ function setup() {
     background(0);
     fill(255);
     textAlign(CENTER);
-    text("Click me! (more than once)", width/2, height/2);
+    text("Click me! (more than once). See code ~below~", width/2, height/2);
 }
 
 function draw() {
