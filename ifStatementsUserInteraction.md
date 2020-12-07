@@ -11,7 +11,7 @@ Here's the tutorial!
 </div>
 
 This is what the completed code will look like.
-Tip: click the box where the drawing shows up, and use the arrow keys!
+Tip: click the box where the drawing shows up, and use the arrow keys and spacebar!
 Watch the video to find out how to make the circle move with your mouse, too.
 
 <div id="preview"></div>
