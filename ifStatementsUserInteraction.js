@@ -1,8 +1,9 @@
 var gameState = 0;
 var x, y, r, g, b, w, t;
+
 function setup() {
-  x = width/2;
-  y = height/2;
+  x = width / 2;
+  y = height / 2;
   r = 10;
   g = 20;
   b = 50;
@@ -15,10 +16,10 @@ function draw() {
   if (gameState == 0) {
     //green
     background(68, 212, 152);
-  }else if(gameState == 1){
+  } else if (gameState == 1) {
     //pink
     background(255, 148, 248);
-  }else if(gameState == 2){
+  } else if (gameState == 2) {
     //blue
     background(120, 221, 255);
   }
@@ -27,34 +28,34 @@ function draw() {
   noStroke();
   r = x;
   b = y;
-  g = x/y;
+  g = x / y;
 
 
 }
 
-function keyPressed(){
-  if(keyCode == 32){
-    if (gameState < 2){
+function keyPressed() {
+  if (keyCode == 32) {
+    if (gameState < 2) {
       gameState++;
-    }else{
+    } else {
       gameState = 0;
     }
   }
   //up
-  if(keyCode == 38){
-  y = y-w;
+  if (keyCode == 38) {
+    y = y - w;
   }
   //down
-  if(keyCode == 40){
-   y = y + w;
+  if (keyCode == 40) {
+    y = y + w;
   }
   //left
-  if(keyCode == 37){
-  x = x - w;
+  if (keyCode == 37) {
+    x = x - w;
   }
   //right
-  if(keyCode == 39){
-  x = x + w;
+  if (keyCode == 39) {
+    x = x + w;
   }
 
 }

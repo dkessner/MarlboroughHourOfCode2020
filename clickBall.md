@@ -12,10 +12,8 @@ Click Ball video game!
 
 <div id="preview"></div>
 
-
 ```javascript
 {% include_relative clickBall.js %}
 ```
 
 <script src="clickBall.js"></script>
-

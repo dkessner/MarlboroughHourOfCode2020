@@ -12,7 +12,7 @@ function setup() {
   createCanvas(400, 400);
   noStroke();
 
-  for(var i = 0; i < 20; i++){
+  for (var i = 0; i < 20; i++) {
     x = random(width);
     y = random(width);
     w = random(10, 100);
